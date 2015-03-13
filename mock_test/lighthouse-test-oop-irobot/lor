@@ -1,0 +1,44 @@
+[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m
+
+Failures:
+
+  1) Robot#position starts off at the center of the board, which is 0,0
+     [31mFailure/Error: expect(@robot.position).to eq([0,0])[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `position' for #<Robot:0x8320250>[0m
+     [36m# ./spec/01_robot_has_position_and_movement.rb:21:in `block (3 levels) in <top (required)>'[0m
+
+  2) Robot movement in 2D space has ability to #move_left one tile at a time
+     [31mFailure/Error: @robot.move_left[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `move_left' for #<Robot:0x8319a68>[0m
+     [36m# ./spec/01_robot_has_position_and_movement.rb:31:in `block (3 levels) in <top (required)>'[0m
+
+  3) Robot movement in 2D space has ability to #move_right one tile at a time
+     [31mFailure/Error: @robot.move_right[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `move_right' for #<Robot:0x83185c8>[0m
+     [36m# ./spec/01_robot_has_position_and_movement.rb:39:in `block (3 levels) in <top (required)>'[0m
+
+  4) Robot movement in 2D space has ability to #move_up one tile at a time
+     [31mFailure/Error: @robot.move_up[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `move_up' for #<Robot:0x82f9c90>[0m
+     [36m# ./spec/01_robot_has_position_and_movement.rb:47:in `block (3 levels) in <top (required)>'[0m
+
+  5) Robot movement in 2D space has ability to #move_down one tile at a time
+     [31mFailure/Error: @robot.move_down[0m
+     [31mNoMethodError:[0m
+     [31m  undefined method `move_down' for #<Robot:0x82f3890>[0m
+     [36m# ./spec/01_robot_has_position_and_movement.rb:55:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.0029 seconds (files took 0.41306 seconds to load)
+[31m5 examples, 5 failures[0m
+
+Failed examples:
+
+[31mrspec ./spec/01_robot_has_position_and_movement.rb:20[0m [36m# Robot#position starts off at the center of the board, which is 0,0[0m
+[31mrspec ./spec/01_robot_has_position_and_movement.rb:30[0m [36m# Robot movement in 2D space has ability to #move_left one tile at a time[0m
+[31mrspec ./spec/01_robot_has_position_and_movement.rb:38[0m [36m# Robot movement in 2D space has ability to #move_right one tile at a time[0m
+[31mrspec ./spec/01_robot_has_position_and_movement.rb:46[0m [36m# Robot movement in 2D space has ability to #move_up one tile at a time[0m
+[31mrspec ./spec/01_robot_has_position_and_movement.rb:54[0m [36m# Robot movement in 2D space has ability to #move_down one tile at a time[0m
